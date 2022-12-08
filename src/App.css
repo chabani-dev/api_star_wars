@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+.ui.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin: 20px;
+  font-size: 2em;
+}
+.d-flex {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 10px;
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: 800;
+  color: antiquewhite;
+  text-align: center !important;
+}
+.col-9 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 44px 18px 24px 42px;
+}
+img {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  position: relative;
+  left: 20%;
+  margin: 28px;
+  width: 41%;
+  height: 39vh;
+  object-fit: contain;
+}
+h1.text-center {
+  font-size: 30px;
+  font-family: fantasy;
+}
+h1.text-center:hover {
+  color: red;
+}
+body {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/968/579/707/5bd35e53d2ca6-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
