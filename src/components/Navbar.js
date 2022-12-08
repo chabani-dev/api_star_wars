@@ -31,12 +31,17 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Planets
+                Starships
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Pricing
+                Films
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Species
               </a>
             </li>
             <li className="nav-item">

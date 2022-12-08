@@ -44,6 +44,18 @@ export default function Peoples() {
           <p>{"Producteur :" + people.producer}</p>
           <p>{"Date de réalisation  :" + people.release_date}</p>
         </div>
+        <form className="d-flex" role="search" action={`/People/${people}`}>
+          <input
+            className="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            onChange={(e) => setPeoplesArray(e.target.value)}
+          />
+          <button className="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
       </div>
     );
   }

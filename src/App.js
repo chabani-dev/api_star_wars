@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <img src={logo} alt="" width="100" />
+      {/* <img src={logo} alt="" width="100" /> */}
       <Routes>
         <Route path="/peoles/:id" element={<Peoples />} />
       </Routes>
